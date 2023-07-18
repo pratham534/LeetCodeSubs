@@ -1,8 +1,5 @@
 class Solution {
 public:
-    void solve(int i, int n, vector<string> &ans, string s){
-        
-    }
     string getPermutation(int n, int k) {
         string s="";
         int prd=1;
