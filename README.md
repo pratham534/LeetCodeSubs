@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0045-jump-game-ii](https://github.com/pratham534/LeetCodeSubs/tree/master/0045-jump-game-ii) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/pratham534/LeetCodeSubs/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [1428-jump-game-iii](https://github.com/pratham534/LeetCodeSubs/tree/master/1428-jump-game-iii) |
+| [1447-jump-game-iv](https://github.com/pratham534/LeetCodeSubs/tree/master/1447-jump-game-iv) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -26,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1428-jump-game-iii](https://github.com/pratham534/LeetCodeSubs/tree/master/1428-jump-game-iii) |
+| [1447-jump-game-iv](https://github.com/pratham534/LeetCodeSubs/tree/master/1447-jump-game-iv) |
 ## Two Pointers
 |  |
 | ------- |
@@ -34,4 +36,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0392-is-subsequence](https://github.com/pratham534/LeetCodeSubs/tree/master/0392-is-subsequence) |
+## Hash Table
+|  |
+| ------- |
+| [1447-jump-game-iv](https://github.com/pratham534/LeetCodeSubs/tree/master/1447-jump-game-iv) |
 <!---LeetCode Topics End-->
