@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/pratham534/LeetCodeSubs/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0392-is-subsequence](https://github.com/pratham534/LeetCodeSubs/tree/master/0392-is-subsequence) |
 | [1086-divisor-game](https://github.com/pratham534/LeetCodeSubs/tree/master/1086-divisor-game) |
+| [1236-n-th-tribonacci-number](https://github.com/pratham534/LeetCodeSubs/tree/master/1236-n-th-tribonacci-number) |
 ## Greedy
 |  |
 | ------- |
@@ -47,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1086-divisor-game](https://github.com/pratham534/LeetCodeSubs/tree/master/1086-divisor-game) |
+| [1236-n-th-tribonacci-number](https://github.com/pratham534/LeetCodeSubs/tree/master/1236-n-th-tribonacci-number) |
 ## Brainteaser
 |  |
 | ------- |
@@ -55,4 +57,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1086-divisor-game](https://github.com/pratham534/LeetCodeSubs/tree/master/1086-divisor-game) |
+## Memoization
+|  |
+| ------- |
+| [1236-n-th-tribonacci-number](https://github.com/pratham534/LeetCodeSubs/tree/master/1236-n-th-tribonacci-number) |
 <!---LeetCode Topics End-->
