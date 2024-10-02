@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0045-jump-game-ii](https://github.com/pratham534/LeetCodeSubs/tree/master/0045-jump-game-ii) |
+| [0119-pascals-triangle-ii](https://github.com/pratham534/LeetCodeSubs/tree/master/0119-pascals-triangle-ii) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/pratham534/LeetCodeSubs/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [1428-jump-game-iii](https://github.com/pratham534/LeetCodeSubs/tree/master/1428-jump-game-iii) |
 | [1447-jump-game-iv](https://github.com/pratham534/LeetCodeSubs/tree/master/1447-jump-game-iv) |
@@ -12,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0045-jump-game-ii](https://github.com/pratham534/LeetCodeSubs/tree/master/0045-jump-game-ii) |
+| [0119-pascals-triangle-ii](https://github.com/pratham534/LeetCodeSubs/tree/master/0119-pascals-triangle-ii) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/pratham534/LeetCodeSubs/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0392-is-subsequence](https://github.com/pratham534/LeetCodeSubs/tree/master/0392-is-subsequence) |
 ## Greedy
