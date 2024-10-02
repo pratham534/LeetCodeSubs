@@ -1,29 +1,23 @@
 class Solution {
 public:
     bool divisorGame(int n) {
-        vector<vector<int>> dp(2,vector<int>(n+1,-1));
+        vector<vector<bool>> dp(2,vector<bool>(n+1));
+        for(int i=0;i<=n;i++){
+            dp[0][i]=false;
+            dp[1][i]=true;
+        }
         dp[0][1]=false;
         dp[1][1]=true;
-        function<bool(int,int)> func = [&](int curr, int turn)->bool{
-            if(curr==2){
-                if(turn==0) return true;
-                else return false;
-            }
-            if(dp[turn][curr]!=-1){
-                return dp[turn][curr];
-            }
-            vector<int> ans(2);
-            ans[0]=0;
-            ans[1]=1;
-            for(int i=1;i<curr;i++){
-                if(curr%i == 0){
-                    if(turn==0) ans[turn] |= func((curr-i), (turn^1));
-                    else ans[turn] &= func((curr-i),(turn^1));
+        // dp[0][2]=true;
+        // dp[1][2]=false;
+        for(int i=2;i<=n;i++){
+            for(int j=1;j<i;j++){
+                if(i%j == 0){
+                    dp[0][i] = dp[0][i] | dp[1][(i-j)];
+                    dp[1][i] = dp[1][i] & dp[0][(i-j)];
                 }
             }
-            return dp[turn][curr]=ans[turn];
-        };
-        dp[0][n]=func(n, 0);
+        }
         return dp[0][n];
     }
 };
