@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0119-pascals-triangle-ii](https://github.com/pratham534/LeetCodeSubs/tree/master/0119-pascals-triangle-ii) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/pratham534/LeetCodeSubs/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0392-is-subsequence](https://github.com/pratham534/LeetCodeSubs/tree/master/0392-is-subsequence) |
+| [1086-divisor-game](https://github.com/pratham534/LeetCodeSubs/tree/master/1086-divisor-game) |
 ## Greedy
 |  |
 | ------- |
@@ -42,4 +43,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1447-jump-game-iv](https://github.com/pratham534/LeetCodeSubs/tree/master/1447-jump-game-iv) |
+## Math
+|  |
+| ------- |
+| [1086-divisor-game](https://github.com/pratham534/LeetCodeSubs/tree/master/1086-divisor-game) |
+## Brainteaser
+|  |
+| ------- |
+| [1086-divisor-game](https://github.com/pratham534/LeetCodeSubs/tree/master/1086-divisor-game) |
+## Game Theory
+|  |
+| ------- |
+| [1086-divisor-game](https://github.com/pratham534/LeetCodeSubs/tree/master/1086-divisor-game) |
 <!---LeetCode Topics End-->
