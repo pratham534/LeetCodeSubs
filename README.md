@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0392-is-subsequence](https://github.com/pratham534/LeetCodeSubs/tree/master/0392-is-subsequence) |
 | [1086-divisor-game](https://github.com/pratham534/LeetCodeSubs/tree/master/1086-divisor-game) |
 | [1236-n-th-tribonacci-number](https://github.com/pratham534/LeetCodeSubs/tree/master/1236-n-th-tribonacci-number) |
+| [1250-longest-common-subsequence](https://github.com/pratham534/LeetCodeSubs/tree/master/1250-longest-common-subsequence) |
 | [1764-maximum-repeating-substring](https://github.com/pratham534/LeetCodeSubs/tree/master/1764-maximum-repeating-substring) |
 ## Greedy
 |  |
@@ -41,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0392-is-subsequence](https://github.com/pratham534/LeetCodeSubs/tree/master/0392-is-subsequence) |
+| [1250-longest-common-subsequence](https://github.com/pratham534/LeetCodeSubs/tree/master/1250-longest-common-subsequence) |
 | [1764-maximum-repeating-substring](https://github.com/pratham534/LeetCodeSubs/tree/master/1764-maximum-repeating-substring) |
 ## Hash Table
 |  |
