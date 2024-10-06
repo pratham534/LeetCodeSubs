@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0045-jump-game-ii](https://github.com/pratham534/LeetCodeSubs/tree/master/0045-jump-game-ii) |
+| [0072-edit-distance](https://github.com/pratham534/LeetCodeSubs/tree/master/0072-edit-distance) |
 | [0115-distinct-subsequences](https://github.com/pratham534/LeetCodeSubs/tree/master/0115-distinct-subsequences) |
 | [0119-pascals-triangle-ii](https://github.com/pratham534/LeetCodeSubs/tree/master/0119-pascals-triangle-ii) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/pratham534/LeetCodeSubs/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
@@ -46,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0072-edit-distance](https://github.com/pratham534/LeetCodeSubs/tree/master/0072-edit-distance) |
 | [0115-distinct-subsequences](https://github.com/pratham534/LeetCodeSubs/tree/master/0115-distinct-subsequences) |
 | [0392-is-subsequence](https://github.com/pratham534/LeetCodeSubs/tree/master/0392-is-subsequence) |
 | [0516-longest-palindromic-subsequence](https://github.com/pratham534/LeetCodeSubs/tree/master/0516-longest-palindromic-subsequence) |
