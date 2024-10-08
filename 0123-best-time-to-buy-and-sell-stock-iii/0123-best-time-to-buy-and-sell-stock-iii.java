@@ -22,14 +22,6 @@ class Solution {
             dp2.set(i, ans2);
             maxi = Math.max(maxi, prices[i + 1]);
         }
-        System.out.print("dp1: ");
-        for (int i = 0; i < n; i++) {
-            System.out.print(dp1.get(i)+",");
-        }
-        System.out.print("\ndp2: ");
-        for (int i = 0; i < n; i++) {
-            System.out.print(dp2.get(i)+",");
-        }
         int ans = 0;
         for (int i = 0; i < n; i++) {
             ans = Math.max(ans, dp1.get(i) + dp2.get(i));
