@@ -1,29 +1,27 @@
 class Solution {
-    List<List<Integer>> dp;
-    int[][] d;
+    // List<List<Integer>> dp;
+    // int[][] d;
 
     public int maxProfit(int[] prices) {
         int n = prices.length;
-        dp = new ArrayList<>();
-        d = new int[n+2][2];
-        for(int i=0;i<=n+1;i++){
-            for(int j=0;j<=1;j++){
-                d[i][j]=0;
-            }
+        int[] curr = new int[2];
+        int[] next = new int[2];
+        int[] fnext = new int[2];
+        for (int j = 0; j <= 1; j++) {
+            curr[j] = 0;
+            next[j] = 0;
+            fnext[j] = 0;
         }
-        for(int i=n-1;i>=0;i--){
-            for(int buy=0;buy<=1;buy++){
-                if(buy==1){
-                    int buyYes = -prices[i]+d[i+1][0];
-                    int buyNo = 0 + d[i+1][1];
-                    d[i][buy] = Math.max(buyYes, buyNo);
-                }else{
-                    int sellYes = prices[i] + d[i + 2][1];
-                    int sellNo = 0 + d[i + 1][0];
-                    d[i][buy]=Math.max(sellYes, sellNo);
-                }
-            }
+        for (int i = n - 1; i >= 0; i--) {
+            int buyYes = -prices[i] + next[0];
+            int buyNo = 0 + next[1];
+            curr[1] = Math.max(buyYes, buyNo);
+            int sellYes = prices[i] + fnext[1];
+            int sellNo = 0 + next[0];
+            curr[0] = Math.max(sellYes, sellNo);
+            fnext = next.clone();
+            next = curr.clone();
         }
-        return d[0][1];
+        return curr[1];
     }
 }
