@@ -4,7 +4,8 @@ import java.util.ArrayList;
 class Solution {
     public int maxProfit(int k, int[] prices) {
         int n = prices.length;
-        int[][][] dp = new int[n+1][k+1][2];
+        int[][] after = new int[k+1][2];
+        int[][] curr = new int[k+1][2];
         // List<List<List<Integer>>> dp = new ArrayList<>();
         // for(int i=0;i<=n;i++){
         //     List<List<Integer>> dp0 = new ArrayList<>();
@@ -17,24 +18,24 @@ class Solution {
         //     }
         //     dp.add(dp0);
         // }
-        for(int i=n;i>=0;i--){
             for(int j=0;j<=k;j++){
                 for(int c=0;c<=1;c++){
-                    dp[i][j][c]=0;
+                    after[j][c]=0;
+                    curr[j][c]=0;
                 }
             }
-        }
         for(int i=n-1;i>=0;i--){
             for(int j=1;j<=k;j++){
                 for(int c=0;c<=1;c++){
                     if(c==1){
-                        dp[i][j][c]=Math.max(-prices[i]+dp[i+1][j][0], 0+dp[i+1][j][1]);
+                        curr[j][c]=Math.max(-prices[i]+after[j][0], 0+after[j][1]);
                     }else{
-                        dp[i][j][c]=Math.max(prices[i]+dp[i+1][j-1][1], 0+dp[i+1][j][0]);
+                        curr[j][c]=Math.max(prices[i]+after[j-1][1], 0+after[j][0]);
                     }
                 }
             }
+            after = curr;
         }
-        return dp[0][k][1];
+        return after[k][1];
     }
 }
