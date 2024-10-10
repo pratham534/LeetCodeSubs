@@ -57,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0142-linked-list-cycle-ii](https://github.com/pratham534/LeetCodeSubs/tree/master/0142-linked-list-cycle-ii) |
+| [0234-palindrome-linked-list](https://github.com/pratham534/LeetCodeSubs/tree/master/0234-palindrome-linked-list) |
 | [0392-is-subsequence](https://github.com/pratham534/LeetCodeSubs/tree/master/0392-is-subsequence) |
 ## String
 |  |
@@ -101,8 +102,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0044-wildcard-matching](https://github.com/pratham534/LeetCodeSubs/tree/master/0044-wildcard-matching) |
+| [0234-palindrome-linked-list](https://github.com/pratham534/LeetCodeSubs/tree/master/0234-palindrome-linked-list) |
 ## Linked List
 |  |
 | ------- |
 | [0142-linked-list-cycle-ii](https://github.com/pratham534/LeetCodeSubs/tree/master/0142-linked-list-cycle-ii) |
+| [0234-palindrome-linked-list](https://github.com/pratham534/LeetCodeSubs/tree/master/0234-palindrome-linked-list) |
+## Stack
+|  |
+| ------- |
+| [0234-palindrome-linked-list](https://github.com/pratham534/LeetCodeSubs/tree/master/0234-palindrome-linked-list) |
 <!---LeetCode Topics End-->
