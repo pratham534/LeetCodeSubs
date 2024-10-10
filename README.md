@@ -56,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0142-linked-list-cycle-ii](https://github.com/pratham534/LeetCodeSubs/tree/master/0142-linked-list-cycle-ii) |
 | [0392-is-subsequence](https://github.com/pratham534/LeetCodeSubs/tree/master/0392-is-subsequence) |
 ## String
 |  |
@@ -73,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0142-linked-list-cycle-ii](https://github.com/pratham534/LeetCodeSubs/tree/master/0142-linked-list-cycle-ii) |
 | [1447-jump-game-iv](https://github.com/pratham534/LeetCodeSubs/tree/master/1447-jump-game-iv) |
 ## Math
 |  |
@@ -99,4 +101,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0044-wildcard-matching](https://github.com/pratham534/LeetCodeSubs/tree/master/0044-wildcard-matching) |
+## Linked List
+|  |
+| ------- |
+| [0142-linked-list-cycle-ii](https://github.com/pratham534/LeetCodeSubs/tree/master/0142-linked-list-cycle-ii) |
 <!---LeetCode Topics End-->
